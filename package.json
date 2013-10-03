@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Yassine AZZOUT <92bondstreet@gmail.com>",
   "homepage": "https://github.com/92bondstreet/nodeginx",
-  "description": "Configure file to make Nginx as Proxy for your nodejs app",
+  "description": "Generate the Nginx configuration file as proxy for Node.js",
   "bin": { 
     "nodeginx": "./bin/nodeginx.js" 
   }, 

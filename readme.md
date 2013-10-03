@@ -29,7 +29,6 @@ To generate the configuration file from the command line, use following options:
 		Generate the Nginx configuration file as proxy for Node.js
 
 		options:
-			-n, --name 			<NAME> 		  	Configuration file name
 			-o, --outputfile 	<OUTPUTFILE>	File name or path for configuration file
 			-p, --port			<PORT>			Listen port for connections
 			-r, --root			<ROOT>			Root path for (public) static content

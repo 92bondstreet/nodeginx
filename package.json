@@ -21,7 +21,7 @@
   "keywords": [
     "nginx",
     "proxy",
-    "reverse-proxy",
+    "reverse-proxy"
   ],
   "analyze": false,
   "devDependencies": {

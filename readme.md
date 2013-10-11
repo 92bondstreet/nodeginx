@@ -32,8 +32,8 @@ To generate the configuration file from the command line, use following options:
 			-o, --outputfile 	<OUTPUTFILE>	File name or path for configuration file
 			-p, --port			<PORT>			Listen port for connections
 			-r, --root			<ROOT>			Root path for (public) static content
-			-u, --upstream		<UPSTREAM>		Upstream name value			
 			-s, --servername	<SERVERNAME>  	Server name			
+			-u, --upstream		<UPSTREAM>		Upstream name value						
 			-h, --htpp			[HTTP] 			Generate Nginx http section options						
 			-w, --withoutwww	[WITHOUTWWW]	Redirect www to non-www
 		Error:

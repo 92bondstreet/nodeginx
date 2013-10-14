@@ -60,7 +60,7 @@
 	          			});
 					});
 
-					it('Callback error', function(done){
+					it('Callback error if required missing', function(done){
 			        	               						         	
 			        	nginx.config(['npm', 'test', '-o', 'mynodesite', '-p', '8001'],function(err,response){
 	             			if (err) 
@@ -77,7 +77,7 @@
 		    		
 		    		it('generate confiuration file with required arguments', function(done) {
 		    			           						         	
-			        	nginx.config(['npm', 'test', '-o', 'mynodesite', '-p', '8001', '-r', '/var/www/mynodesite/public', '-u', 'mynodesite_upstream', '-s', 'www.mynodesite.com'],function(err,response){
+			        	nginx.config(['npm', 'test', '-o', 'mynodeapp', '-p', '8001', '-r', '/var/www/mynodeapp/public', '-u', 'mynodeapp_upstream', '-s', 'www.mynodeapp.com'],function(err,response){
 	             			if (err) 
 	             				console.log(err);	
 	             			else
@@ -88,7 +88,7 @@
 
 		    		it('generate confiuration file with required AND optional arguments', function(done) {
 		    			           						         	
-			        	nginx.config(['npm', 'test', '-o', 'mynodesite', '-p', '8001', '-r', '/var/www/mynodesite/public', '-u', 'mynodesite_upstream', '-s', 'www.mynodesite.com', '-h', '-w'],function(err,response){
+			        	nginx.config(['npm', 'test', '-o', 'mynodesite', '-p', '8002', '-r', '/var/www/mynodesite/public', '-u', 'mynodesite_upstream', '-s', 'http://mynodesite.com', '-h', '-w'],function(err,response){
 	             			if (err) 
 	             				console.log(err);	
 	             			else

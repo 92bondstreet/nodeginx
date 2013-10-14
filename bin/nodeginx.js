@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var nodegnix = require('../lib/main');
+var nodeginx = require('../lib/main');
 var colors = require('colors');
 
 //Define colors for console logging
@@ -17,4 +17,4 @@ var traceError = function (error, retval) {
 		  console.log(colors.verbose(retval));
 		}
 
-nodegnix.script(process.argv,traceError);
+nodeginx.script(process.argv,traceError);

@@ -88,7 +88,7 @@
 
 		    		it('generate confiuration file with required AND optional arguments', function(done) {
 		    			           						         	
-			        	nginx.config(['npm', 'test', '-o', 'mynodesite', '-p', '8002', '-r', '/var/www/mynodesite/public', '-u', 'mynodesite_upstream', '-s', 'http://mynodesite.com', '-h', '-w'],function(err,response){
+			        	nginx.config(['npm', 'test', '-o', 'mynodesite', '-p', '8002', '-r', '/var/www/mynodesite/public', '-u', 'mynodesite_upstream', '-s', 'http://mynodesite.com', '-c', '-w'],function(err,response){
 	             			if (err) 
 	             				console.log(err);	
 	             			else

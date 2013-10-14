@@ -17,4 +17,4 @@ var traceError = function (error, retval) {
 		  console.log(colors.verbose(retval));
 		}
 
-nodeginx.script(process.argv,traceError);
+nodeginx.config(process.argv,traceError);

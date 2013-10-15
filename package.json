@@ -1,7 +1,7 @@
 {
   "name": "nodeginx",
   "preferGlobal": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Yassine AZZOUT <92bondstreet@gmail.com>",
   "homepage": "https://github.com/92bondstreet/nodeginx",
   "description": "Generate the Nginx configuration file as proxy for Node.js",

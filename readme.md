@@ -34,7 +34,7 @@ To generate the configuration file from the command line, use following options:
 			-r, --rootdir		<ROOT>			Root path for (public) static content
 			-s, --servername	<SERVERNAME>  	Server name			
 			-u, --upstream		<UPSTREAM>		Upstream name value						
-			-h, --c				[CONFIG] 		Generate Nginx http section configuration						
+			-c, --config		[CONFIG] 		Generate Nginx http section configuration						
 			-w, --withoutwww	[WITHOUTWWW]	Redirect www to non-www
 		Error:
 		Cannot generate Nginx conf file: no options defined.
